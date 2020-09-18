@@ -7,6 +7,8 @@ const PizzaForm = props => {
         <form>
             <label htmlFor="pizza" > Pizza </label>
             <input id="pizza" type="text" />
+            <input>Choose A Size</input>
+            <input>Toppings</input>
         </form>
     )
 };
