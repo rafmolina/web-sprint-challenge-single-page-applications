@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Link } from "react-router-dom"
 import Home from './Home'
 import './App.css'
+import PizzaForm from './PizzaForm'
 
 const App = () => {
   return (
@@ -16,6 +17,10 @@ const App = () => {
       <Route exact path = "/">
       <Home/>
       </Route>
+      <Route exact path="/pizza">
+      <PizzaForm/>
+      </Route>
+      <Link exact to="/pizza"><button>Pizza?</button></Link>
     </div>
   );
 };
